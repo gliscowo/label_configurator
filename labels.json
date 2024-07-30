@@ -1,0 +1,87 @@
+{
+    "clean": false,
+    "delete_labels": [
+        "good first issue",
+        "help wanted"
+    ],
+    "labels": [{
+            "name": "priority: high",
+            "color": "d20f39",
+            "description": "this issue breaks critical functionality - it must be adressed immediately"
+        },
+        {
+            "name": "priority: low",
+            "color": "05e495",
+            "description": "this issue only has minor effects - adressing it is not immediately required"
+        },
+        {
+            "name": "priority: normal",
+            "color": "8839ef",
+            "description": "this issue does not break any critical functionality - it must be adressed, but not immediately"
+        },
+        {
+            "name": "status: confirmed",
+            "color": "05e495",
+            "description": "this issue is reproducible or otherwise confirmed to exist"
+        },
+        {
+            "from": "scheduled",
+            "name": "status: scheduled",
+            "color": "209fb5",
+            "description": "the resolution of this issue is scheduled for the next release"
+        },
+        {
+            "name": "status: investigating",
+            "color": "8839ef",
+            "description": "this issue is not easily reproducible or fixable, the cause is being investigated"
+        },
+        {
+            "from": "invalid",
+            "name": "status: invalid",
+            "color": "df8e1d",
+            "description": "this issue is confirmed to not exist in any capacity"
+        },
+        {
+            "from": "wontfix",
+            "name": "status: wontfix",
+            "color": "df8e1d",
+            "description": "this issue is confirmed, but will not be fixed"
+        },
+        {
+            "from": "bug",
+            "name": "type: bug",
+            "color": "d20f39",
+            "description": "this issue breaks or otherwise adversely affects functionality"
+        },
+        {
+            "from": "compatibility",
+            "name": "type: compatibility",
+            "color": "d20f39",
+            "description": "this issue is caused by a compatibility problem"
+        },
+        {
+            "from": "duplicate",
+            "name": "type: duplicate",
+            "color": "d20f39",
+            "description": "this issue reports the same problem as a different one"
+        },
+        {
+            "from": "documentation",
+            "name": "type: documentation",
+            "color": "1e66f5",
+            "description": "this issue requests additions or enhancements to documentation"
+        },
+        {
+            "from": "enhancement",
+            "name": "type: enhancement",
+            "color": "1e66f5",
+            "description": "this issue requests additions or enhancements to the codebase"
+        },
+        {
+            "from": "question",
+            "name": "type: question",
+            "color": "1e66f5",
+            "description": "this issue asks a question and does not necessarily report a problem"
+        }
+    ]
+}
